@@ -10,10 +10,13 @@ export default function Header() {
                 <h1>Josh's Sports Apparel</h1>
             </div>
             <div className="NavButtons">
-                <button>Main Menu</button>
-                <button>Favorites</button>
-                <button>Sign out</button>
-                <button>Sign in with Google</button>
+                <span>HOME</span>
+                <span>BLOG</span>
+                <span>WISHLIST</span>
+                <span>ORDER STATUS</span>
+                <span>CONTACT US</span>
+                <span>Sign out</span>
+                <span>Sign in with Google</span>
             </div>
         </div>
     )

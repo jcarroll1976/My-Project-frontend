@@ -7,16 +7,16 @@ export default function Header() {
     return (
         <div className="Header">
             <div className="TitleHeader">
-                <h1>Josh's Sports Apparel</h1>
+                <h1>Josh's Campus Apparel</h1>
             </div>
             <div className="NavButtons">
-                <span>HOME</span>
-                <span>BLOG</span>
-                <span>WISHLIST</span>
-                <span>ORDER STATUS</span>
-                <span>CONTACT US</span>
-                <span>Sign out</span>
-                <span>Sign in with Google</span>
+                <span className="link">HOME</span>
+                <span className="link">BLOG</span>
+                <span className="link">WISHLIST</span>
+                <span className="link">ORDER STATUS</span>
+                <span className="link">CONTACT US</span>
+                <span className="link">Sign out</span>
+                <span className="link">Sign in with Google</span>
             </div>
         </div>
     )
